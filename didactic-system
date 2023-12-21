@@ -1,0 +1,15 @@
+        case .rotate(let gestureState):
+            newState = onRotate(gestureState, in: newState)
+        }
+        
+        return newState
+        
+    }
+        return newCollage
+        
+    }
+    
+    private mutating func changeShape(_ action: ShapeModification,
+                                      id: String,
+                                      in collage: Collage) -> Collage {
+        
